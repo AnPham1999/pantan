@@ -1,0 +1,52 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="QlKaraoke">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Karavip" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+                <xs:element name="phong">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="MaPhong"/>
+                        <xs:element type="xs:string" name="Tenphong"/>
+                        <xs:element type="xs:string" name="LoaiPhong"/>
+                        <xs:element type="xs:int" name="Giatheogio"/>
+                        <xs:element type="xs:string" name="Trangthaiphong"/>
+                      </xs:sequence>
+                      <xs:attribute type="xs:string" name="name"/>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="Nhatkyphong">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="Maphong"/>
+                        <xs:element type="xs:byte" name="Manhatky"/>
+                        <xs:element type="xs:string" name="Ngay"/>
+                        <xs:element type="xs:byte" name="giobatdau"/>
+                        <xs:element type="xs:byte" name="gioketthuc"/>
+                        <xs:element type="xs:string" name="trangthaitinhtien"/>
+                      </xs:sequence>
+                      <xs:attribute type="xs:string" name="name"/>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="Hoadon">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="MaHD"/>
+                        <xs:element type="xs:string" name="TenHD"/>
+                        <xs:element type="xs:int" name="TongTien"/>
+                        <xs:element type="xs:byte" name="ManhatKy"/>
+                        <xs:element type="xs:byte" name="Tienggio"/>
+                        <xs:element type="xs:string" name="Ngaylap"/>
+                      </xs:sequence>
+                      <xs:attribute type="xs:string" name="name"/>
+                    </xs:complexType>
+                  </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element> 
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

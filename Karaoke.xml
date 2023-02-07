@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Karaoke.xsl" type="text/xsl"?>
+<?xml-stylesheet href="Karaoke.xsd" type="text/xsd"?>
+<QlKaraoke>
+    <Phong MaPhong="karaoke1">
+        <MaPhong>001</MaPhong>
+        <Tenphong>Karaoke pop</Tenphong>
+        <LoaiPhong>Phong vip</LoaiPhong>
+        <Giatheogio>150000</Giatheogio>
+        <Trangthaiphong>Dang su dung</Trangthaiphong>
+
+        <Nhatkyphong name="karaoke2">
+            <MaPhong>02</MaPhong>
+            <Tenphong>Karaoke classical</Tenphong>
+            <LoaiPhong>Phong vip</LoaiPhong>
+            <Giatheogio>150000</Giatheogio>
+            <Trangthaiphong>Con phong</Trangthaiphong>
+        </Nhatkyphong>
+    </Phong>
+
+    <Phong MaPhong="karaoke2">
+        <MaPhong>01</MaPhong>
+        <Tenphong>Karaoke music</Tenphong>
+        <LoaiPhong>Phong vip</LoaiPhong>
+        <Giatheogio>150000</Giatheogio>
+        <Trangthaiphong>Dang su dung</Trangthaiphong>
+
+        <Nhatkyphong name="nhatky2">
+            <Maphong>02</Maphong>
+            <Manhatky>002</Manhatky>
+            <Ngay>16-06-2012</Ngay>
+            <giobatdau>19</giobatdau>
+            <gioketthuc>21</gioketthuc>
+            <trangthaitinhtien>Dang su dung</trangthaitinhtien>
+        </Nhatkyphong> 
+    </Phong>
+
+    <Phong MaHD="hoadon1">
+        <MaHD>0001</MaHD>
+        <TenHD>Phong 01</TenHD>
+        <TongTien>200000</TongTien>
+        <ManhatKy>001</ManhatKy>
+        <Tienggio>2</Tienggio>
+        <Ngaylap>16-06-2012</Ngaylap>
+    </Phong>
+    <Phong MaHD="hoadon2">
+        <MaHD>0002</MaHD>
+        <TenHD>Phong 02</TenHD>
+        <TongTien>150000</TongTien>
+        <ManhatKy>002</ManhatKy>
+        <Tienggio>4</Tienggio>
+        <Ngaylap>2012-16-06</Ngaylap>
+    </Phong>
+</QlKaraoke>

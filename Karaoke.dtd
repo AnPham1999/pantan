@@ -1,0 +1,17 @@
+<!ELEMENT stylesheet (template)>
+<!ATTLIST stylesheet version NMTOKEN #REQUIRED>
+<!ELEMENT template (html)>
+<!ATTLIST template match CDATA #REQUIRED>
+<!ELEMENT html (body)>
+<!ELEMENT body (h2,table)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT table (tr,for-each)>
+<!ATTLIST table border NMTOKEN #REQUIRED>
+<!ELEMENT tr (th*,td*)>
+<!ATTLIST tr bgcolor CDATA #IMPLIED>
+<!ELEMENT th (#PCDATA)>
+<!ELEMENT for-each (tr)>
+<!ATTLIST for-each select CDATA #REQUIRED>
+<!ELEMENT td (value-of)>
+<!ELEMENT value-of EMPTY>
+<!ATTLIST value-of select CDATA #REQUIRED>
